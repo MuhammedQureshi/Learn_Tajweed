@@ -1,0 +1,49 @@
+.rulesSec {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+#hero {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#hero img {
+  height: auto;
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
+}
+
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.tab button {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border: 1 solid;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab button:hover {
+  background-color: rgb(19, 81, 75);
+  color: white;
+}
+
+.tab button.active {
+  background-color: rgb(19, 81, 75);
+  color: white;
+}
+
